@@ -1,7 +1,6 @@
 <?php 
 
 class Object_Person extends Object_Concrete {
-
 public $o_classId = 4;
 public $o_className = "person";
 public $gender;

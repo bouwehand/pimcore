@@ -2,373 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e165d10-ef09-494c-95db-5e9360f84602" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/controllers/ProductController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/views/scripts/product/index.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/system/.dummy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/system/db-change-log_1383914078-527cda5ee8e95.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/system/db-change-log_1384332001-52833ae187235.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/system/user-thumbnail-2.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/.dummy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/3/thumb__pimcore-system-treepreview/blackleatherheels.pjpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/minified_javascript_core_95b67b55074857fbf72c66d458ca1f49.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/minified_javascript_core_af89e6176434b485f0a8e10bd81f531e.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/.dummy" afterPath="$PROJECT_DIR$/plugins/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/areas/.dummy" afterPath="$PROJECT_DIR$/website/var/areas/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/.dummy" afterPath="$PROJECT_DIR$/website/var/assets/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/backup/.dummy" afterPath="$PROJECT_DIR$/website/var/backup/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/cache/.dummy" afterPath="$PROJECT_DIR$/website/var/cache/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/.dummy" afterPath="$PROJECT_DIR$/website/var/classes/Object/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/.dummy" afterPath="$PROJECT_DIR$/website/var/config/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/deployment/packages/.dummy" afterPath="$PROJECT_DIR$/website/var/deployment/packages/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/.dummy" afterPath="$PROJECT_DIR$/website/var/log/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/plugins/.dummy" afterPath="$PROJECT_DIR$/website/var/plugins/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/versions/asset/.dummy" afterPath="$PROJECT_DIR$/website/var/versions/asset/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/versions/document/.dummy" afterPath="$PROJECT_DIR$/website/var/versions/document/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/versions/object/.dummy" afterPath="$PROJECT_DIR$/website/var/versions/object/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/webdav/.dummy" afterPath="$PROJECT_DIR$/website/var/webdav/.dummy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/versions/asset/11.bin" afterPath="$PROJECT_DIR$/website/var/versions/asset/11.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/GeoLite2-City.mmdb" afterPath="$PROJECT_DIR$/website/var/config/GeoLite2-City.mmdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/buffering.gif" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/buffering.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/carousel.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/carousel.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/img/de.png" afterPath="$PROJECT_DIR$/website/static/img/de.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/documentation.pdf" afterPath="$PROJECT_DIR$/website/var/assets/documents/documentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03778.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03778.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03807.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03807.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03835.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03835.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04344.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04344.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04346.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04346.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04399.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04399.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04462.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04462.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/img/en.png" afterPath="$PROJECT_DIR$/website/static/img/en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/example-excel.xlsx" afterPath="$PROJECT_DIR$/website/var/assets/documents/example-excel.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/example.docx" afterPath="$PROJECT_DIR$/website/var/assets/documents/example.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/example.pptx" afterPath="$PROJECT_DIR$/website/var/assets/documents/example.pptx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/favicon.png" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/ico/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/glossary.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/glossary.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/grid.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/grid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/videos/home-trailer-english.mp4" afterPath="$PROJECT_DIR$/website/var/assets/videos/home-trailer-english.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0037.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0037.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0089.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0089.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0117.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0117.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0160.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0160.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0201.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0201.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0322.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0322.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0391.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0391.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0399.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0399.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0410.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0410.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0411.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0411.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1414.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1414.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1544.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1544.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1739.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1739.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1752.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1752.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1842.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1842.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1920.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1920.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2133.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2133.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2155.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2155.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2240.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2240.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/jarisplayer.swf" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/jarisplayer.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/jumbotron-narrow.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/jumbotron-narrow.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/jumbotron.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/jumbotron.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/justified-nav.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/justified-nav.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/img/logo-overlay.png" afterPath="$PROJECT_DIR$/website/static/img/logo-overlay.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/img/logo.png" afterPath="$PROJECT_DIR$/website/static/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/maccaco-load-static.png" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/maccaco-load-static.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/maccaco-load.gif" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/maccaco-load.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/maccaco.png" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/maccaco.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/img/mask-example.png" afterPath="$PROJECT_DIR$/website/static/img/mask-example.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/navbar-fixed.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/navbar-fixed.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/navbar-static.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/navbar-static.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/navbar.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/navbar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/noise.gif" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/noise.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/non-responsive.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/non-responsive.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/objects-forms.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/objects-forms.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/offcanvas.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/offcanvas.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/player.png" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/player.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/properties-1.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/properties-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/properties-2.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/properties-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/properties-3.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/properties-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/sign-in.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/sign-in.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-01.jpg" afterPath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-02.jpg" afterPath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-03.jpg" afterPath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/start.png" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/start.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/starter-template.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/starter-template.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/sticky-footer-navbar.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/sticky-footer-navbar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/sticky-footer.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/sticky-footer.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/tag-snippet-management.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/tag-snippet-management.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/theme.jpg" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/screenshots/theme.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/thumbnail-configuration.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/thumbnail-configuration.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/img/transparent-background-placeholder.png" afterPath="$PROJECT_DIR$/website/static/img/transparent-background-placeholder.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/user-image/user-2.png" afterPath="$PROJECT_DIR$/website/var/user-image/user-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/website-translations.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/website-translations.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/.editorconfig" afterPath="$PROJECT_DIR$/website/static/bootstrap/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/.gitignore" afterPath="$PROJECT_DIR$/website/static/bootstrap/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/.jshintrc" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/.travis.yml" afterPath="$PROJECT_DIR$/website/static/bootstrap/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/AdvancedController.php" afterPath="$PROJECT_DIR$/website/controllers/AdvancedController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/BUILD-HOWTO.txt" afterPath="$PROJECT_DIR$/website/BUILD-HOWTO.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/CNAME" afterPath="$PROJECT_DIR$/website/static/bootstrap/CNAME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/website/static/bootstrap/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/ContentController.php" afterPath="$PROJECT_DIR$/website/controllers/ContentController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/DefaultController.php" afterPath="$PROJECT_DIR$/website/controllers/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Inquiry.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Inquiry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/website/static/bootstrap/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Inquiry/List.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Inquiry/List.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/27/thumb__auto_2176b4d06ce538b8e42e1ee15caa3343-5/home-trailer-english.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/video-thumbnails/27/thumb__featurerette/home-trailer-english.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/video-thumbnails/27/thumb__featurerette/home-trailer-english.webm" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/News/List.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/News/List.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Person/List.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Person/List.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/News.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/News.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/NewsController.php" afterPath="$PROJECT_DIR$/website/controllers/NewsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/NewsletterController.php" afterPath="$PROJECT_DIR$/website/controllers/NewsletterController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php" afterPath="$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Person.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/README.md" afterPath="$PROJECT_DIR$/website/static/bootstrap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_config.yml" afterPath="$PROJECT_DIR$/website/static/bootstrap/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/ads.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/ads.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/affix.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/application.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/includes/area-headlines.php" afterPath="$PROJECT_DIR$/website/views/scripts/includes/area-headlines.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/blockquote/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/blockquote/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/featurette/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/featurette/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/gallery-folder/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/gallery-folder/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/gallery-single-images/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/gallery-single-images/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/image/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/image/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/image-hotspot-marker/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/image-hotspot-marker/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/pdf/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/pdf/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/standard-teaser-row/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/standard-teaser-row/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/video/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/video/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/wysiwyg/area.xml" afterPath="$PROJECT_DIR$/website/views/areas/wysiwyg/area.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/system/backup-dump.sql" afterPath="$PROJECT_DIR$/website/var/system/backup-dump.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/bower.json" afterPath="$PROJECT_DIR$/website/static/bootstrap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/browserstack.json" afterPath="$PROJECT_DIR$/website/static/bootstrap/browserstack.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/build-dependency.txt" afterPath="$PROJECT_DIR$/website/build-dependency.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/button.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/cache.xml.example" afterPath="$PROJECT_DIR$/website/var/config/cache.xml.example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/carousel/carousel.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/carousel/carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/carousel.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/classmap.xml.example" afterPath="$PROJECT_DIR$/website/var/config/classmap.xml.example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/components.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/composer.json" afterPath="$PROJECT_DIR$/website/static/bootstrap/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/advanced/contact-form.php" afterPath="$PROJECT_DIR$/website/views/scripts/advanced/contact-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/includes/content-headline.php" afterPath="$PROJECT_DIR$/website/views/scripts/includes/content-headline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/content.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/videopipelines/content.xml" afterPath="$PROJECT_DIR$/website/var/config/videopipelines/content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/dump/create-dump.php" afterPath="$PROJECT_DIR$/website/dump/create-dump.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/css.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/customize.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/customize.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/customizer.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/customizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/dump/data.sql" afterPath="$PROJECT_DIR$/website/dump/data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/debug.log" afterPath="$PROJECT_DIR$/website/var/log/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_layouts/default.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/default.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_2.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_2.psf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_3.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_3.psf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_4.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_4.psf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/design.html" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/design.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/news/detail.php" afterPath="$PROJECT_DIR$/website/views/scripts/news/detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/css/docs.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/dropdown.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/editable-roundup.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/editable-roundup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/css/editmode.css" afterPath="$PROJECT_DIR$/website/static/css/editmode.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/advanced/email.php" afterPath="$PROJECT_DIR$/website/views/scripts/advanced/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined1.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined2.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleContain.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleContain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCorners.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCorners.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCover.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleFrame.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleFrame.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleGrayscale.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleGrayscale.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleMask.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleMask.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleOverlay.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleOverlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleResize.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleResize.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleRotate.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleRotate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleHeight.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleHeight.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleWidth.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleWidth.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleSepia.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleSepia.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/extensions.xml" afterPath="$PROJECT_DIR$/website/var/config/extensions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/tags/facebook-box.xml" afterPath="$PROJECT_DIR$/website/var/config/tags/facebook-box.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/featurerette.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/featurerette.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/videopipelines/featurerette.xml" afterPath="$PROJECT_DIR$/website/var/config/videopipelines/featurerette.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/filesaver.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/filesaver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/footer.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/includes/footer.php" afterPath="$PROJECT_DIR$/website/views/scripts/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/gallery-renderlet.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/gallery-renderlet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryLightbox.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryLightbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryThumbnail.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryThumbnail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/getting-started.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/getting-started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/css/global.css" afterPath="$PROJECT_DIR$/website/static/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/website/static/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/website/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/grid/grid.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/grid/grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/header.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/holder.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/holder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_layouts/home.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/html5shiv.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/carousel/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/carousel/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/grid/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron-narrow/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron-narrow/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/justified-nav/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/justified-nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-fixed-top/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-fixed-top/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-static-top/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-static-top/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/non-responsive/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/non-responsive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/offcanvas/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/offcanvas/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/signin/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/signin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/starter-template/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/starter-template/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer-navbar/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer-navbar/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/theme/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/theme/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/index.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/advanced/index.php" afterPath="$PROJECT_DIR$/website/views/scripts/advanced/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/news/index.php" afterPath="$PROJECT_DIR$/website/views/scripts/news/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/javascript.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/jquery.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/vendor/jquery.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/vendor/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/jszip.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/jszip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron-narrow/jumbotron-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron/jumbotron.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/jumbotron/jumbotron.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/justified-nav/justified-nav.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/justified-nav/justified-nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/includes/language.php" afterPath="$PROJECT_DIR$/website/views/scripts/includes/language.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/layouts/layout.php" afterPath="$PROJECT_DIR$/website/views/layouts/layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/less.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/less.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/license.txt" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/list-group.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/loginerror.log" afterPath="$PROJECT_DIR$/website/var/log/loginerror.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/magnific/magnific.css" afterPath="$PROJECT_DIR$/website/static/lib/magnific/magnific.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/magnific/magnific.js" afterPath="$PROJECT_DIR$/website/static/lib/magnific/magnific.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-components.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-css.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-customize.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-customize.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-getting-started.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-getting-started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-javascript.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-main.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/nav-main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-fixed-top/navbar-fixed-top.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-static-top/navbar-static-top.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar-static-top/navbar-static-top.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar/navbar.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/navbar/navbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/newsList.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/newsList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/non-responsive/non-responsive.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/non-responsive/non-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/advanced/object-form.php" afterPath="$PROJECT_DIR$/website/views/scripts/advanced/object-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/offcanvas/offcanvas.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/offcanvas/offcanvas.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/offcanvas/offcanvas.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/offcanvas/offcanvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/old-bs-docs.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/old-bs-docs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/package.json" afterPath="$PROJECT_DIR$/website/static/bootstrap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/includes/paging.php" afterPath="$PROJECT_DIR$/website/views/scripts/includes/paging.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/phantom.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/phantom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/phantom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/css/portal.css" afterPath="$PROJECT_DIR$/website/static/css/portal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/portal.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/portal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/projekktor-1.2.25r232.min.js" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/projekktor-1.2.25r232.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/css/pygments-manni.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/css/pygments-manni.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/vendor/qunit.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/vendor/qunit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/vendor/qunit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/raw-files.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/raw-files.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/readme.html" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/readme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/respond.min.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/scrollspy.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/advanced/search.php" afterPath="$PROJECT_DIR$/website/views/scripts/advanced/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/server.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/includes/sidebar.php" afterPath="$PROJECT_DIR$/website/views/scripts/includes/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/signin/signin.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/signin/signin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/simple-form.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/simple-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/_includes/social-buttons.html" afterPath="$PROJECT_DIR$/website/static/bootstrap/_includes/social-buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/snippets/standard-teaser.php" afterPath="$PROJECT_DIR$/website/views/scripts/snippets/standard-teaser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/standardTeaser.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/standardTeaser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/starter-template/starter-template.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/starter-template/starter-template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/startup.php.example" afterPath="$PROJECT_DIR$/website/var/config/startup.php.example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer/sticky-footer.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/sticky-footer/sticky-footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/lib/projekktor/theme/style.css" afterPath="$PROJECT_DIR$/website/static/lib/projekktor/theme/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/tab.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/test.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/examples/theme/theme.css" afterPath="$PROJECT_DIR$/website/static/bootstrap/examples/theme/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/thumbnails.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/thumbnails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/tooltip.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/transition.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/js/tests/unit/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/assets/js/uglify.js" afterPath="$PROJECT_DIR$/website/static/bootstrap/assets/js/uglify.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/usagelog.log" afterPath="$PROJECT_DIR$/website/var/log/usagelog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/blockquote/view.php" afterPath="$PROJECT_DIR$/website/views/areas/blockquote/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/featurette/view.php" afterPath="$PROJECT_DIR$/website/views/areas/featurette/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/gallery-folder/view.php" afterPath="$PROJECT_DIR$/website/views/areas/gallery-folder/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/gallery-single-images/view.php" afterPath="$PROJECT_DIR$/website/views/areas/gallery-single-images/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/image/view.php" afterPath="$PROJECT_DIR$/website/views/areas/image/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/image-hotspot-marker/view.php" afterPath="$PROJECT_DIR$/website/views/areas/image-hotspot-marker/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/pdf/view.php" afterPath="$PROJECT_DIR$/website/views/areas/pdf/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/standard-teaser-row/view.php" afterPath="$PROJECT_DIR$/website/views/areas/standard-teaser-row/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/video/view.php" afterPath="$PROJECT_DIR$/website/views/areas/video/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/areas/wysiwyg/view.php" afterPath="$PROJECT_DIR$/website/views/areas/wysiwyg/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/views/scripts/content/website-translations.php" afterPath="$PROJECT_DIR$/website/views/scripts/content/website-translations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/static/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/website/static/bootstrap/less/wells.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pimcore.iws" />
@@ -392,46 +38,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pimcore/models/Object/Class.php">
+      <file leaf-file-name="ProductController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="28" selection-start="2058" selection-end="2058" vertical-scroll-proportion="-4.58" vertical-offset="1376" max-vertical-offset="10275">
+            <state line="14" column="42" selection-start="261" selection-end="261" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="360">
+              <folding>
+                <element signature="e#6#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/views/scripts/news/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="1265" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/views/scripts/product/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="528" column="63" selection-start="19901" selection-end="19901" vertical-scroll-proportion="-7.02" vertical-offset="7389" max-vertical-offset="24360">
+            <state line="4" column="7" selection-start="100" selection-end="100" vertical-scroll-proportion="0.06904488" vertical-offset="0" max-vertical-offset="869">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resource.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pimcore/models/Object/List/Concrete/Resource.php">
+      <file leaf-file-name="NewsletterController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/controllers/NewsletterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="26" selection-start="1437" selection-end="1438" vertical-scroll-proportion="-5.52" vertical-offset="219" max-vertical-offset="3105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Abstract.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore/Model/Abstract.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="157" selection-start="5931" selection-end="5932" vertical-scroll-proportion="-5.52" vertical-offset="2439" max-vertical-offset="3435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.sql" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website/dump/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2274" column="0" selection-start="0" selection-end="312416" vertical-scroll-proportion="0.4375" vertical-offset="33725" max-vertical-offset="41580">
+            <state line="4" column="0" selection-start="68" selection-end="320" vertical-scroll-proportion="-0.625" vertical-offset="45" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -455,12 +94,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/website/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/pimcore/lib/Zend/Controller/Dispatcher/Standard.php" />
-        <option value="$PROJECT_DIR$/website/var/config/system.xml" />
         <option value="$PROJECT_DIR$/pimcore/lib/Pimcore.php" />
         <option value="$PROJECT_DIR$/website/controllers/DefaultController.php" />
-        <option value="$PROJECT_DIR$/website/var/log/debug.log" />
         <option value="$PROJECT_DIR$/website/var/config/startup.php" />
         <option value="$PROJECT_DIR$/website/controllers/indexController.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
@@ -469,6 +104,12 @@
         <option value="$PROJECT_DIR$/pimcore/models/Object/List/Concrete/Resource.php" />
         <option value="$PROJECT_DIR$/website/dump/data.sql" />
         <option value="$PROJECT_DIR$/pimcore/lib/Pimcore/Model/Abstract.php" />
+        <option value="$PROJECT_DIR$/website/controllers/NewsController.php" />
+        <option value="$PROJECT_DIR$/website/var/log/debug.log" />
+        <option value="$PROJECT_DIR$/website/var/classes/Object/News/List.php" />
+        <option value="$PROJECT_DIR$/website/var/classes/Object/Person.php" />
+        <option value="$PROJECT_DIR$/website/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/website/views/scripts/product/index.php" />
       </list>
     </option>
   </component>
@@ -483,7 +124,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1021" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -509,6 +150,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -555,7 +197,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dump" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -569,17 +215,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -615,6 +339,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9e165d10-ef09-494c-95db-5e9360f84602" name="Default" comment="" />
@@ -633,7 +374,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940476" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940476" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -669,94 +410,119 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="480">
+        <state line="528" column="63" selection-start="19901" selection-end="19901" vertical-scroll-proportion="7.5" vertical-offset="7920" max-vertical-offset="24360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore.php">
+    <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore/Model/List/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="13" selection-start="8655" selection-end="8655" vertical-scroll-proportion="0.0" vertical-offset="3645" max-vertical-offset="13950">
+        <state line="153" column="20" selection-start="2913" selection-end="2913" vertical-scroll-proportion="-22.5" vertical-offset="1575" max-vertical-offset="4695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/controllers/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="75" selection-start="63" selection-end="948" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="14" selection-end="25" vertical-scroll-proportion="81.083336" vertical-offset="1976" max-vertical-offset="2820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/log/debug.log">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14039" column="0" selection-start="1767548" selection-end="1767548" vertical-scroll-proportion="-25.37931" vertical-offset="209849" max-vertical-offset="210675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Person/List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/News/List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Product/List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="14" selection-end="28" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-0.0" vertical-offset="45" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/var/config/system.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="1518" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1005">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1907" max-vertical-offset="2775">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/log/debug.log">
+    <entry file="file://$PROJECT_DIR$/website/var/config/classmap.xml.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="509" column="0" selection-start="47321" selection-end="47321" vertical-scroll-proportion="0.0" vertical-offset="7635" max-vertical-offset="49770">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+        <state line="17" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/lib/Website/Tool/Text.php">
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
+        <state line="3" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="26.25" vertical-offset="675" max-vertical-offset="2550">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/views/areas/.dummy">
+    <entry file="file://$PROJECT_DIR$/website/views/scripts/news/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="868" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/lib/Website/Controller/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+        <state line="0" column="0" selection-start="0" selection-end="1265" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pimcore/models/Object/Class.php">
+    <entry file="file://$PROJECT_DIR$/website/controllers/NewsletterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="28" selection-start="2058" selection-end="2058" vertical-scroll-proportion="-4.58" vertical-offset="1376" max-vertical-offset="10275">
+        <state line="4" column="0" selection-start="68" selection-end="320" vertical-scroll-proportion="-0.625" vertical-offset="45" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php">
+    <entry file="file://$PROJECT_DIR$/website/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="528" column="63" selection-start="19901" selection-end="19901" vertical-scroll-proportion="-7.02" vertical-offset="7389" max-vertical-offset="24360">
-          <folding />
+        <state line="14" column="42" selection-start="261" selection-end="261" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="360">
+          <folding>
+            <element signature="e#6#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pimcore/models/Object/List/Concrete/Resource.php">
+    <entry file="file://$PROJECT_DIR$/website/views/scripts/product/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="1437" selection-end="1438" vertical-scroll-proportion="-5.52" vertical-offset="219" max-vertical-offset="3105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore/Model/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="157" selection-start="5931" selection-end="5932" vertical-scroll-proportion="-5.52" vertical-offset="2439" max-vertical-offset="3435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/dump/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2274" column="0" selection-start="0" selection-end="312416" vertical-scroll-proportion="0.4375" vertical-offset="33725" max-vertical-offset="41580">
+        <state line="4" column="7" selection-start="100" selection-end="100" vertical-scroll-proportion="0.06904488" vertical-offset="0" max-vertical-offset="869">
           <folding />
         </state>
       </provider>

@@ -31,5 +31,4 @@ class NewsController extends Website_Controller_Action
 
         $this->view->news = $news;
     }
-
 }
