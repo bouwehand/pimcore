@@ -26,6 +26,7 @@ public function getFrontimage () {
 	$preValue = $this->preGetValue("frontimage"); 
 	if($preValue !== null && !Pimcore::inAdmin()) { return $preValue;}
 	$data = $this->frontimage;
+	if(!$data && Object_Abstract::doGetInheritedValues()) { return $this->getValueFromParent("frontimage");}
 	 return $data;
 }
 
@@ -45,6 +46,7 @@ public function getCreated () {
 	$preValue = $this->preGetValue("Created"); 
 	if($preValue !== null && !Pimcore::inAdmin()) { return $preValue;}
 	$data = $this->Created;
+	if(!$data && Object_Abstract::doGetInheritedValues()) { return $this->getValueFromParent("Created");}
 	 return $data;
 }
 
@@ -64,6 +66,7 @@ public function getSKU () {
 	$preValue = $this->preGetValue("SKU"); 
 	if($preValue !== null && !Pimcore::inAdmin()) { return $preValue;}
 	$data = $this->SKU;
+	if($data === null && Object_Abstract::doGetInheritedValues()) { return $this->getValueFromParent("SKU");}
 	 return $data;
 }
 

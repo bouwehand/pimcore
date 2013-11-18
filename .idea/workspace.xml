@@ -2,18 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e165d10-ef09-494c-95db-5e9360f84602" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/controllers/ProductController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/views/scripts/product/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/system/.dummy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/.dummy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/27/thumb__auto_2176b4d06ce538b8e42e1ee15caa3343-5/home-trailer-english.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/video-thumbnails/27/thumb__featurerette/home-trailer-english.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website/var/tmp/video-thumbnails/27/thumb__featurerette/home-trailer-english.webm" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/views/scripts/product/_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/static/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/views/scripts/product/index.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/website/var/config/startup.php.example" afterPath="$PROJECT_DIR$/website/var/config/startup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/versions/asset/126.bin" afterPath="$PROJECT_DIR$/website/var/versions/asset/126.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/versions/asset/127.bin" afterPath="$PROJECT_DIR$/website/var/versions/asset/127.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/GeoLite2-City.mmdb" afterPath="$PROJECT_DIR$/website/var/config/GeoLite2-City.mmdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/document-image-cache/document_36__thumbnail_1.png" afterPath="$PROJECT_DIR$/website/var/tmp/document-image-cache/document_36__thumbnail_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/documentation.pdf" afterPath="$PROJECT_DIR$/website/var/assets/documents/documentation.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/36/thumb__document_pimcore-system-treepreview-1/documentation.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/36/thumb__document_pimcore-system-treepreview-1/documentation.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03778.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03778.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/55/thumb__featurerette/dsc03778.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/55/thumb__featurerette/dsc03778.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/55/thumb__pimcore-system-treepreview/dsc03778.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/55/thumb__pimcore-system-treepreview/dsc03778.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/55/thumb__auto_7a36c504f4d58b72147524000abb2fdb/dsc03778.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/55/thumb__auto_7a36c504f4d58b72147524000abb2fdb/dsc03778.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03807.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03807.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/56/thumb__pimcore-system-treepreview/dsc03807.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/56/thumb__pimcore-system-treepreview/dsc03807.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/56/thumb__auto_c7e996a778422a831cb43e3df9b72352/dsc03807.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/56/thumb__auto_c7e996a778422a831cb43e3df9b72352/dsc03807.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03835.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/singapore/dsc03835.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/57/thumb__pimcore-system-treepreview/dsc03835.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/57/thumb__pimcore-system-treepreview/dsc03835.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/57/thumb__auto_c14eea4a330ce8e9dead70f6265b74d1/dsc03835.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/57/thumb__auto_c14eea4a330ce8e9dead70f6265b74d1/dsc03835.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04344.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04344.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/39/thumb__pimcore-system-treepreview/dsc04344.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/39/thumb__pimcore-system-treepreview/dsc04344.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/39/thumb__auto_4a822d20cff7aee726f8c43184d752ca/dsc04344.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/39/thumb__auto_4a822d20cff7aee726f8c43184d752ca/dsc04344.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/39/thumb__auto_4dfbd921e9648e06f99e3130d1134258/dsc04344.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/39/thumb__auto_4dfbd921e9648e06f99e3130d1134258/dsc04344.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04346.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04346.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/38/thumb__pimcore-system-treepreview/dsc04346.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/38/thumb__pimcore-system-treepreview/dsc04346.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/38/thumb__auto_141647f4516840e593d78163c5fd6d02/dsc04346.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/38/thumb__auto_141647f4516840e593d78163c5fd6d02/dsc04346.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/38/thumb__auto_9aec1722d9f91509527fe529b0500264/dsc04346.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/38/thumb__auto_9aec1722d9f91509527fe529b0500264/dsc04346.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04399.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04399.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/41/thumb__pimcore-system-treepreview/dsc04399.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/41/thumb__pimcore-system-treepreview/dsc04399.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/41/thumb__auto_62b3efce6b9175dcdbfbeb787c38b227/dsc04399.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/41/thumb__auto_62b3efce6b9175dcdbfbeb787c38b227/dsc04399.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04462.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/italy/dsc04462.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/40/thumb__pimcore-system-treepreview/dsc04462.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/40/thumb__pimcore-system-treepreview/dsc04462.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/40/thumb__auto_e7a94c123d2da203b984a40a9d5a7fa8/dsc04462.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/40/thumb__auto_e7a94c123d2da203b984a40a9d5a7fa8/dsc04462.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/example-excel.xlsx" afterPath="$PROJECT_DIR$/website/var/assets/documents/example-excel.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/example.docx" afterPath="$PROJECT_DIR$/website/var/assets/documents/example.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/documents/example.pptx" afterPath="$PROJECT_DIR$/website/var/assets/documents/example.pptx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__pimcore-system-treepreview/glossary.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__pimcore-system-treepreview/glossary.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/glossary.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/glossary.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__auto_96ee4b24b826dd1932d6a1d5a49b1f9f/glossary.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__auto_96ee4b24b826dd1932d6a1d5a49b1f9f/glossary.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__auto_d16338a8cc8ce82a650f3b091b617514/glossary.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__auto_d16338a8cc8ce82a650f3b091b617514/glossary.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__newsList/glossary.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/35/thumb__newsList/glossary.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/videos/home-trailer-english.mp4" afterPath="$PROJECT_DIR$/website/var/assets/videos/home-trailer-english.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/27/thumb__pimcore-system-treepreview-5/home-trailer-english.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/27/thumb__pimcore-system-treepreview-5/home-trailer-english.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0037.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0037.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/21/thumb__auto_a98db90722744dc20060e347f9024455/img_0037.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/21/thumb__auto_a98db90722744dc20060e347f9024455/img_0037.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/21/thumb__standardTeaser/img_0037@2x.jpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/21/thumb__standardTeaser/img_0037@2x.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0089.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0089.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/20/thumb__auto_571884bcf825c0a765cef4a5cf27b6ed/img_0089.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/20/thumb__auto_571884bcf825c0a765cef4a5cf27b6ed/img_0089.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/20/thumb__auto_7ebfbd5d863d16ba829031a3dea7fccd/img_0089.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/20/thumb__auto_7ebfbd5d863d16ba829031a3dea7fccd/img_0089.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/20/thumb__standardTeaser/img_0089@2x.jpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/20/thumb__standardTeaser/img_0089@2x.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__newsList/img_0117.jpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__newsList/img_0117.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0117.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0117.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__auto_3c3cfea4d97cf1c4235acdb8cb2b7350/img_0117.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__auto_3c3cfea4d97cf1c4235acdb8cb2b7350/img_0117.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__auto_d82f34b9db163b501582e13a728d7773/img_0117.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__auto_d82f34b9db163b501582e13a728d7773/img_0117.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__standardTeaser/img_0117@2x.jpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/18/thumb__standardTeaser/img_0117@2x.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0160.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0160.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/25/thumb__auto_4f611f2a293ccbd3bf5194d01be2a0aa/img_0160.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/25/thumb__auto_4f611f2a293ccbd3bf5194d01be2a0aa/img_0160.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/25/thumb__auto_675da8e8caff9582ce929bcd711534c1/img_0160.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/25/thumb__auto_675da8e8caff9582ce929bcd711534c1/img_0160.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0201.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0201.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/19/thumb__featurerette/img_0201.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/19/thumb__featurerette/img_0201.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/19/thumb__auto_f17b021ddd87c301dc7749a602833a02/img_0201.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/19/thumb__auto_f17b021ddd87c301dc7749a602833a02/img_0201.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0322.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0322.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/53/thumb__pimcore-system-treepreview/img_0322.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/53/thumb__pimcore-system-treepreview/img_0322.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/53/thumb__auto_e115f4b14c17be4b921d5c262c4678bf/img_0322.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/53/thumb__auto_e115f4b14c17be4b921d5c262c4678bf/img_0322.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0391.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_0391.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/48/thumb__pimcore-system-treepreview/img_0391.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/48/thumb__pimcore-system-treepreview/img_0391.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/48/thumb__auto_98cdfe3aa3b727632885b357af802c7e/img_0391.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/48/thumb__auto_98cdfe3aa3b727632885b357af802c7e/img_0391.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0399.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0399.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/22/thumb__auto_fed791a1d8c4f19f1a1acdeb9291f9ef/img_0399.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/22/thumb__auto_fed791a1d8c4f19f1a1acdeb9291f9ef/img_0399.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0410.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0410.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/24/thumb__auto_9781b57a5b1c9d57a1833a92a192ce52/img_0410.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/24/thumb__auto_9781b57a5b1c9d57a1833a92a192ce52/img_0410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0411.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/panama/img_0411.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/23/thumb__auto_18bbe26aa46419fe25c0eeb8b5cf3366/img_0411.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/23/thumb__auto_18bbe26aa46419fe25c0eeb8b5cf3366/img_0411.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1414.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1414.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/43/thumb__pimcore-system-treepreview/img_1414.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/43/thumb__pimcore-system-treepreview/img_1414.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/43/thumb__auto_e3542312ea59bef6bcd0046578254f8e/img_1414.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/43/thumb__auto_e3542312ea59bef6bcd0046578254f8e/img_1414.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1544.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1544.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/50/thumb__pimcore-system-treepreview/img_1544.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/50/thumb__pimcore-system-treepreview/img_1544.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/50/thumb__auto_64aded75bddbd4ee72439018719d2b60/img_1544.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/50/thumb__auto_64aded75bddbd4ee72439018719d2b60/img_1544.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1739.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1739.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/47/thumb__pimcore-system-treepreview/img_1739.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/47/thumb__pimcore-system-treepreview/img_1739.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/47/thumb__auto_80fe641fe338d1f9530f311b931fb057/img_1739.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/47/thumb__auto_80fe641fe338d1f9530f311b931fb057/img_1739.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1752.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1752.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/46/thumb__pimcore-system-treepreview/img_1752.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/46/thumb__pimcore-system-treepreview/img_1752.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/46/thumb__auto_a45195ad21d42f5cbf79e1865b871cda/img_1752.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/46/thumb__auto_a45195ad21d42f5cbf79e1865b871cda/img_1752.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__newsList/img_1842.jpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__newsList/img_1842.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1842.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1842.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__pimcore-system-treepreview/img_1842.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__pimcore-system-treepreview/img_1842.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__auto_0aaf71a9ebdbb847ec21ae55b0ddd005/img_1842.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__auto_0aaf71a9ebdbb847ec21ae55b0ddd005/img_1842.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__auto_3aca9f0d5cdbcc16e850cc33ee7414da/img_1842.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__auto_3aca9f0d5cdbcc16e850cc33ee7414da/img_1842.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__auto_72909fba36c9a6338f6f58ddb2447cc1/img_1842.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/51/thumb__auto_72909fba36c9a6338f6f58ddb2447cc1/img_1842.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1920.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_1920.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/52/thumb__pimcore-system-treepreview/img_1920.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/52/thumb__pimcore-system-treepreview/img_1920.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/52/thumb__auto_d502e11a3450dae6610bf17fe4b9985c/img_1920.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/52/thumb__auto_d502e11a3450dae6610bf17fe4b9985c/img_1920.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2133.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2133.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/44/thumb__pimcore-system-treepreview/img_2133.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/44/thumb__pimcore-system-treepreview/img_2133.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/44/thumb__auto_efd6d77ad18a3201a74500665d787ef3/img_2133.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/44/thumb__auto_efd6d77ad18a3201a74500665d787ef3/img_2133.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/49/thumb__newsList/img_2155.jpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/49/thumb__newsList/img_2155.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2155.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2155.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/49/thumb__pimcore-system-treepreview/img_2155.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/49/thumb__pimcore-system-treepreview/img_2155.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/49/thumb__auto_f1990554cd1e55ebfe09b61131e877a9/img_2155.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/49/thumb__auto_f1990554cd1e55ebfe09b61131e877a9/img_2155.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2240.jpg" afterPath="$PROJECT_DIR$/website/var/assets/examples/south-africa/img_2240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/45/thumb__auto_1022224772e7f56f8c9cc7bf37b70c3f/img_2240.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/45/thumb__auto_1022224772e7f56f8c9cc7bf37b70c3f/img_2240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/65/thumb__pimcore-system-treepreview/objects-forms.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/65/thumb__pimcore-system-treepreview/objects-forms.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/objects-forms.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/objects-forms.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/65/thumb__auto_0189bacb36417eefd41e6b4689062683/objects-forms.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/65/thumb__auto_0189bacb36417eefd41e6b4689062683/objects-forms.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/61/thumb__pimcore-system-treepreview/properties-1.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/61/thumb__pimcore-system-treepreview/properties-1.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/properties-1.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/properties-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/61/thumb__auto_630f37c0238354ec3edce65bd736a035/properties-1.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/61/thumb__auto_630f37c0238354ec3edce65bd736a035/properties-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/62/thumb__pimcore-system-treepreview/properties-2.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/62/thumb__pimcore-system-treepreview/properties-2.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/properties-2.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/properties-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/62/thumb__auto_066c6a7928f4a3dfb37b1189b12b0152/properties-2.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/62/thumb__auto_066c6a7928f4a3dfb37b1189b12b0152/properties-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/63/thumb__pimcore-system-treepreview/properties-3.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/63/thumb__pimcore-system-treepreview/properties-3.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/properties-3.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/properties-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/63/thumb__auto_bb61aeb1b0e6f0506e732c61aeebf9c8/properties-3.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/63/thumb__auto_bb61aeb1b0e6f0506e732c61aeebf9c8/properties-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-01.jpg" afterPath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/4/thumb__pimcore-system-treepreview/slide-01.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/4/thumb__pimcore-system-treepreview/slide-01.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/4/thumb__auto_c1d5c58e34eff151775ede323850f416/slide-01.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/4/thumb__auto_c1d5c58e34eff151775ede323850f416/slide-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-02.jpg" afterPath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/5/thumb__pimcore-system-treepreview/slide-02.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/5/thumb__pimcore-system-treepreview/slide-02.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/5/thumb__auto_b191ae09dda721d8f6a72035aa56a47a/slide-02.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/5/thumb__auto_b191ae09dda721d8f6a72035aa56a47a/slide-02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-03.jpg" afterPath="$PROJECT_DIR$/website/var/assets/portal-sujets/slide-03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/6/thumb__pimcore-system-treepreview/slide-03.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/6/thumb__pimcore-system-treepreview/slide-03.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/6/thumb__auto_43ea40393bd4f5d48424c32dcdde2247/slide-03.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/6/thumb__auto_43ea40393bd4f5d48424c32dcdde2247/slide-03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/64/thumb__pimcore-system-treepreview/tag-snippet-management.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/64/thumb__pimcore-system-treepreview/tag-snippet-management.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/tag-snippet-management.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/tag-snippet-management.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/64/thumb__auto_242befb5196b1eb7728566434fc4c744/tag-snippet-management.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/64/thumb__auto_242befb5196b1eb7728566434fc4c744/tag-snippet-management.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/59/thumb__pimcore-system-treepreview/thumbnail-configuration.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/59/thumb__pimcore-system-treepreview/thumbnail-configuration.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/thumbnail-configuration.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/thumbnail-configuration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/59/thumb__auto_19420852c0bba407c13a077decb46dcc/thumbnail-configuration.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/59/thumb__auto_19420852c0bba407c13a077decb46dcc/thumbnail-configuration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/59/thumb__auto_d117132bc1dc359f03d4549ed2606f07/thumbnail-configuration.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/59/thumb__auto_d117132bc1dc359f03d4549ed2606f07/thumbnail-configuration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/user-image/user-2.png" afterPath="$PROJECT_DIR$/website/var/user-image/user-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/system/user-thumbnail-2.png" afterPath="$PROJECT_DIR$/website/var/system/user-thumbnail-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/video-image-cache/video_27__thumbnail_5.png" afterPath="$PROJECT_DIR$/website/var/tmp/video-image-cache/video_27__thumbnail_5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/60/thumb__pimcore-system-treepreview/website-translations.pjpeg" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/60/thumb__pimcore-system-treepreview/website-translations.pjpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/assets/screenshots/website-translations.png" afterPath="$PROJECT_DIR$/website/var/assets/screenshots/website-translations.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/60/thumb__auto_87d8e5dc732063a7b260481c0bda2da4/website-translations.png" afterPath="$PROJECT_DIR$/website/var/tmp/image-thumbnails/60/thumb__auto_87d8e5dc732063a7b260481c0bda2da4/website-translations.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Inquiry.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Inquiry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Inquiry/List.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Inquiry/List.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/News/List.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/News/List.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/NewsController.php" afterPath="$PROJECT_DIR$/website/controllers/NewsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Person/List.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Person/List.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/News.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/News.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Person.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Person.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/Object/Product.php" afterPath="$PROJECT_DIR$/website/var/classes/Object/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/controllers/ProductController.php" afterPath="$PROJECT_DIR$/website/controllers/ProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/content.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/videopipelines/content.xml" afterPath="$PROJECT_DIR$/website/var/config/videopipelines/content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/system/db-change-log_1384521214-52861dfe1a299.sql" afterPath="$PROJECT_DIR$/website/var/system/db-change-log_1384521214-52861dfe1a299.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/system/db-change-log_1384523043-52862523a16ee.sql" afterPath="$PROJECT_DIR$/website/var/system/db-change-log_1384523043-52862523a16ee.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/debug.log" afterPath="$PROJECT_DIR$/website/var/log/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_2.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_2.psf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_3.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_3.psf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_4.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_4.psf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/classes/definition_5.psf" afterPath="$PROJECT_DIR$/website/var/classes/definition_5.psf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined1.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined2.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCombined2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleContain.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleContain.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCorners.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCorners.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCover.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleCover.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleFrame.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleFrame.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleGrayscale.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleGrayscale.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleMask.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleMask.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleOverlay.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleOverlay.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleResize.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleResize.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleRotate.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleRotate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleHeight.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleHeight.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleWidth.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleScaleWidth.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleSepia.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/exampleSepia.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/extensions.xml" afterPath="$PROJECT_DIR$/website/var/config/extensions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/tags/facebook-box.xml" afterPath="$PROJECT_DIR$/website/var/config/tags/facebook-box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/featurerette.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/featurerette.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/videopipelines/featurerette.xml" afterPath="$PROJECT_DIR$/website/var/config/videopipelines/featurerette.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryLightbox.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryLightbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryThumbnail.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/galleryThumbnail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/libreoffice-pdf-convert.log" afterPath="$PROJECT_DIR$/website/var/log/libreoffice-pdf-convert.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/loginerror.log" afterPath="$PROJECT_DIR$/website/var/log/loginerror.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/newsList.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/newsList.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/imagepipelines/standardTeaser.xml" afterPath="$PROJECT_DIR$/website/var/config/imagepipelines/standardTeaser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/system.xml.example" afterPath="$PROJECT_DIR$/website/var/config/system.xml.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/config/system.xml" afterPath="$PROJECT_DIR$/website/var/config/system.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/var/log/usagelog.log" afterPath="$PROJECT_DIR$/website/var/log/usagelog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,21 +207,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/controllers/ProductController.php">
+      <file leaf-file-name="startup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/var/config/startup.php">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="42" selection-start="261" selection-end="261" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="360">
-              <folding>
-                <element signature="e#6#85#0" expanded="true" />
-              </folding>
+            <state line="32" column="2" selection-start="909" selection-end="909" vertical-scroll-proportion="-16.551723" vertical-offset="0" max-vertical-offset="705">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/views/scripts/news/index.php">
+      <file leaf-file-name="NewsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/controllers/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="1265" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="12" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Front.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pimcore/lib/Zend/Controller/Front.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="512" column="20" selection-start="14644" selection-end="14644" vertical-scroll-proportion="-12.333333" vertical-offset="7114" max-vertical-offset="14730">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/views/scripts/product/_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -61,16 +249,27 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/views/scripts/product/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="100" selection-end="100" vertical-scroll-proportion="0.06904488" vertical-offset="0" max-vertical-offset="869">
+            <state line="16" column="77" selection-start="309" selection-end="309" vertical-scroll-proportion="0.27713627" vertical-offset="0" max-vertical-offset="1635">
+              <folding>
+                <element signature="e#6#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="1" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsletterController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/controllers/NewsletterController.php">
+      <file leaf-file-name="Pimcore.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="68" selection-end="320" vertical-scroll-proportion="-0.625" vertical-offset="45" max-vertical-offset="1245">
+            <state line="174" column="34" selection-start="5881" selection-end="5888" vertical-scroll-proportion="-13.125" vertical-offset="2115" max-vertical-offset="13770">
               <folding />
             </state>
           </provider>
@@ -94,9 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pimcore/lib/Pimcore.php" />
-        <option value="$PROJECT_DIR$/website/controllers/DefaultController.php" />
-        <option value="$PROJECT_DIR$/website/var/config/startup.php" />
         <option value="$PROJECT_DIR$/website/controllers/indexController.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php" />
@@ -109,6 +305,9 @@
         <option value="$PROJECT_DIR$/website/var/classes/Object/News/List.php" />
         <option value="$PROJECT_DIR$/website/var/classes/Object/Person.php" />
         <option value="$PROJECT_DIR$/website/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/website/var/config/startup.php" />
+        <option value="$PROJECT_DIR$/website/views/scripts/product/index.phtml" />
+        <option value="$PROJECT_DIR$/website/static/css/style.css" />
         <option value="$PROJECT_DIR$/website/views/scripts/product/index.php" />
       </list>
     </option>
@@ -120,9 +319,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="29" />
-    <option name="width" value="1680" />
-    <option name="height" value="1021" />
+    <option name="x" value="9" />
+    <option name="y" value="60" />
+    <option name="width" value="1678" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -150,7 +350,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,21 +488,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pimcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zend/zf_test" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -365,7 +609,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1680" height="1021" extended-state="6" />
+    <frame x="9" y="60" width="1678" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -374,7 +618,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940476" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24910608" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -410,41 +654,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pimcore/modules/admin/controllers/ObjectController.php">
+    <entry file="file://$PROJECT_DIR$/website/var/config/system.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="528" column="63" selection-start="19901" selection-end="19901" vertical-scroll-proportion="7.5" vertical-offset="7920" max-vertical-offset="24360">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1907" max-vertical-offset="2775">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore/Model/List/Abstract.php">
+    <entry file="file://$PROJECT_DIR$/website/var/config/classmap.xml.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="20" selection-start="2913" selection-end="2913" vertical-scroll-proportion="-22.5" vertical-offset="1575" max-vertical-offset="4695">
+        <state line="17" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="26.25" vertical-offset="675" max-vertical-offset="2550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/controllers/NewsletterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="68" selection-end="320" vertical-scroll-proportion="0.017321017" vertical-offset="45" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/controllers/NewsController.php">
+    <entry file="file://$PROJECT_DIR$/website/views/scripts/news/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="75" selection-start="63" selection-end="948" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="600">
+        <state line="12" column="58" selection-start="344" selection-end="374" vertical-scroll-proportion="0.2078522" vertical-offset="0" max-vertical-offset="866">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/News.php">
+    <entry file="file://$PROJECT_DIR$/website/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="14" selection-end="25" vertical-scroll-proportion="81.083336" vertical-offset="1976" max-vertical-offset="2820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/log/debug.log">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14039" column="0" selection-start="1767548" selection-end="1767548" vertical-scroll-proportion="-25.37931" vertical-offset="209849" max-vertical-offset="210675">
-          <folding />
+        <state line="16" column="1" selection-start="87" selection-end="250" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <folding>
+            <element signature="e#6#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,75 +701,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/News/List.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Product/List.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="14" selection-end="28" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
+        <state line="9" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Product.php">
+    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/News/List.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-0.0" vertical-offset="45" max-vertical-offset="1365">
+        <state line="7" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12124711" vertical-offset="0" max-vertical-offset="866">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/config/system.xml">
+    <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1907" max-vertical-offset="2775">
+        <state line="174" column="34" selection-start="5881" selection-end="5888" vertical-scroll-proportion="-13.125" vertical-offset="2115" max-vertical-offset="13770">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/config/classmap.xml.example">
+    <entry file="file://$PROJECT_DIR$/pimcore/lib/Zend/Controller/Front.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="512" column="20" selection-start="14644" selection-end="14644" vertical-scroll-proportion="-12.333333" vertical-offset="7114" max-vertical-offset="14730">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/var/classes/Object/Person.php">
+    <entry file="file://$PROJECT_DIR$/website/var/config/startup.php">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="26.25" vertical-offset="675" max-vertical-offset="2550">
+        <state line="32" column="2" selection-start="909" selection-end="909" vertical-scroll-proportion="-16.551723" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/views/scripts/news/index.php">
+    <entry file="file://$PROJECT_DIR$/website/controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1265" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
+        <state line="12" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/controllers/NewsletterController.php">
+    <entry file="file://$PROJECT_DIR$/website/views/scripts/product/_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="68" selection-end="320" vertical-scroll-proportion="-0.625" vertical-offset="45" max-vertical-offset="1245">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/controllers/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/website/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="261" selection-end="261" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="e#6#85#0" expanded="true" />
-          </folding>
+        <state line="28" column="1" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/views/scripts/product/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="100" selection-end="100" vertical-scroll-proportion="0.06904488" vertical-offset="0" max-vertical-offset="869">
-          <folding />
+        <state line="16" column="77" selection-start="309" selection-end="309" vertical-scroll-proportion="0.27713627" vertical-offset="0" max-vertical-offset="1635">
+          <folding>
+            <element signature="e#6#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,21 +9,26 @@
 /*
 // register a custom ZF controller plugin
 $front = Zend_Controller_Front::getInstance();
-$front->registerPlugin(new Website_Controller_Plugin_Custom(), 700);
-*/
+//$front->registerPlugin(new Website_Controller_Plugin_Custom(), 700);
 
-/*
+
+
+
 // register a custom ZF route
 $router = $front->getRouter();
+
 $routeCustom = new Zend_Controller_Router_Route(
-    'custom/:controller/:action/*',
+    'default/:controller/:action/*',
     array(
-        'module' => 'custom',
-        "controller" => "index",
+        'module' => 'default',
+        "controller" => "product",
         "action" => "index"
     )
 );
+
+
 $router->addRoute('custom', $routeCustom);
+
 $front->setRouter($router);
 */
 
