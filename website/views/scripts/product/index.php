@@ -50,7 +50,9 @@
             var container = document.querySelector('.container');
             var msnry;
             var url = '<?php echo $this->getFullPath() . DIRECTORY_SEPARATOR . $this->getAction(); ?>';
-            var msnry = new Masonry(container);
+            var msnry = new Masonry(container, {
+                 isFitWidth: true
+             });
 
             function isScrolledIntoView(elem) {
                 var docViewTop = $(window).scrollTop();
@@ -74,10 +76,11 @@
                     dataType: 'json',
                     type : 'get',
                     success: function(data){
-                        $.each(data, function( value, value ) {
-                            $(value).appendTo('.container');
+                        $.each(data, function( index, value ) {
+                            var val = $.parseHTML(value);
+                            $(val).appendTo('.container');
                             // rewrite the masonry
-                            msnry.appended( value );
+                            msnry.appended(val);
                         });
                         // Render layout AFTER elements are bound
                         msnry.layout();

@@ -41,9 +41,11 @@ class ProductController extends Website_Controller_Action {
 
             $return = array();
             foreach ( $objects as $object ) {
-                $return[] = '<div class="item"><img src="' . $object->getFrontimage() . '"  /></div>';
+                $asset = Asset::getByPath($object->getFrontimage());
+                $imageThumb = $asset->getThumbnail("productFrontimage");
+                $return[] = '<div class="item"><img src="' . $imageThumb . '"  /></div>';
             }
-            // USe die to suppress ZEND rendering
+            // Use die to suppress ZEND rendering
             die(json_encode($return));
         }
     }

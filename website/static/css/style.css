@@ -60,27 +60,15 @@ h1
     height: 35px;
 }
 
-
-
 #str-body{
     clear:both;
     width: 100%;
     min-height: 500px;
 }
 
-/* Masonry */
+/* Masonry
+-------------------------------------------------- */
 .container {
-    width:100%;
+    margin:0 auto;
 }
 
-.item {
-    min-width: 200px;
-    min-height:200px;
-    background-color: #0099FF
-}
-
-.item.w2 {
-    width: 200px;
-    height:500px;
-    background-color: #00CC00
-}
