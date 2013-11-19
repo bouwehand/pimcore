@@ -9,7 +9,6 @@
         if($this->getParam("controller") == "content" && $this->getParam("action") == "portal") {
             $isPortal = true;
         }
-
         // output the collected meta-data
         if(!$this->document) {
             // use "home" document as default if no document is present

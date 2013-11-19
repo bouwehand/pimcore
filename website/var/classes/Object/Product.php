@@ -79,6 +79,18 @@ public function setSKU ($SKU) {
 	return $this;
 }
 
+/**
+*   Returns the Productobjects json encoded for Masonry
+*
+*   Lean controllers and fat models rule
+*/
+public function getJson() {
+
+    $list = self::getList();
+    die(print_r($list));
+}
+
+
 protected static $_relationFields = array (
 );
 
